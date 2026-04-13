@@ -4,7 +4,6 @@ import { Link, useNavigate } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
 import { auth } from '../firebase';
 import { signOut } from 'firebase/auth';
-import SchoolIcon from '@mui/icons-material/School';
 
 export default function Navbar() {
   const { currentUser } = useAuth();
@@ -19,7 +18,19 @@ export default function Navbar() {
     <AppBar position="sticky" color="default" elevation={1} sx={{ bgcolor: 'background.paper' }}>
       <Container maxWidth="lg">
         <Toolbar disableGutters>
-          <SchoolIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1, color: 'primary.main' }} />
+          {/* 👇 SUBSTITUÍMOS O SchoolIcon PELA IMAGEM PNG */}
+          <Box
+            component="img"
+            src="/logo.png"  // 👈 CAMINHO PARA SUA IMAGEM NA PASTA PUBLIC
+            alt="Educa Livre"
+            sx={{
+              display: { xs: 'none', md: 'block' },
+              height: 40,
+              width: 'auto',
+              mr: 1,
+            }}
+          />
+          
           <Typography
             variant="h6"
             noWrap

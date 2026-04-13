@@ -7,9 +7,9 @@ import { Link } from 'react-router-dom';
 
 // Dados Mockados (Exatamente como nos seus Cards do Figma)
 const escolasDestaque = [
-  { id: 1, nome: 'Colégio Equidade', cidade: 'São Paulo, SP', imagem: 'https://placecats.com/300/140', nota: 4.8 },
-  { id: 2, nome: 'Escola Saber Livre', cidade: 'Rio de Janeiro, RJ', imagem: 'https://placecats.com/301/140', nota: 4.5 },
-  { id: 3, nome: 'Instituto Futuro', cidade: 'Belo Horizonte, MG', imagem: 'https://placecats.com/302/140', nota: 4.9 },
+  { id: 1, nome: 'Fatec Matão – Luiz Marchesan', cidade: 'Matão, SP', imagem: 'https://bkpsitecpsnew.blob.core.windows.net/uploadsitecps/sites/1/2020/10/fatec-matao.jpg', nota: 4.9 },
+  { id: 2, nome: 'Fatec São Carlos', cidade: 'São Carlos, SP', imagem: 'https://bkpsitecpsnew.blob.core.windows.net/uploadsitecps/sites/1/2020/10/fatec-sao-carlos.jpg', nota: 4.8 },
+  { id: 3, nome: 'Fatec Araraquara – Prof. José Arana Varela', cidade: 'Araraquara, SP', imagem: 'https://bkpsitecpsnew.blob.core.windows.net/uploadsitecps/sites/1/2020/10/fatec-araraquara.jpg', nota: 4.5 },
 ];
 
 export default function Home() {
