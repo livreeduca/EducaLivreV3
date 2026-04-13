@@ -50,6 +50,8 @@ O sistema permite que pais, alunos, ex-alunos e professores consultem um ranking
 
 2. **Instale as Dependências:**
      npm install
+     npm install firebase react-router-dom
+     npm install @mui/material @emotion/react @emotion/styled @mui/icons-material
 
 3. **Configure o Firebase:**
     Crie um projeto no Firebase Console.
