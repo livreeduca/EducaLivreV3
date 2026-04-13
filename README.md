@@ -59,18 +59,6 @@ O sistema permite que pais, alunos, ex-alunos e professores consultem um ranking
 4. **Execute o projeto em modo de desenvolvimento**
     npm run dev
 
-
-🧭 Estrutura do Projeto
-
-src/
-├── components/       # Componentes reutilizáveis (Navbar, etc.)
-├── context/          # Context API (AuthContext para estado de autenticação)
-├── pages/            # Páginas da aplicação (Home, Login, Register, SchoolDetail, Profile)
-├── firebase.js       # Configuração e inicialização do Firebase
-├── theme.js          # Tema customizado do Material-UI (claro/escuro)
-├── App.jsx           # Componente raiz com rotas
-└── main.jsx          # Ponto de entrada da aplicação
-
 📝 Licença
 
 Este projeto está licenciado sob a GNU General Public License v3.0 (GPL-3.0).
